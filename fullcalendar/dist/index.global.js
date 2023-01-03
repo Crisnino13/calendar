@@ -7498,7 +7498,7 @@ var FullCalendar = (function (exports) {
             prevYear: 'prev year',
             nextYear: 'next year',
             year: 'year',
-            today: 'today',
+            today: 'Hoy',
             month: 'month',
             week: 'week',
             day: 'day',
