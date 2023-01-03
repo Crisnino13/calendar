@@ -63,7 +63,7 @@
           border-radius: 16px;
           
         }
-
+        
         #calendarmob {
           display: none;
           background: #A7AAF4;
@@ -1271,6 +1271,7 @@
       document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('calendarmob');
         var calendar = new FullCalendar.Calendar(calendarEl, {
+          height: 'auto',
           initialView: 'listMonth',
           locale: 'es',
           events: [ 
